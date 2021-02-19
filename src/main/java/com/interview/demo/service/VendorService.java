@@ -42,8 +42,8 @@ import com.twilio.type.PhoneNumber;
 @Service
 public class VendorService {
 	
-	private final static String ACCOUNT_SID="ACa38a0a3a475bf47931f33caf0243efa2";
-	private final static String AUTH_TOKEN="d6976b6279f9373d14397f7842bc6fe0";
+	private final static String ACCOUNT_SID="1111111111111111111";
+	private final static String AUTH_TOKEN="111111111111111111";
 	
 	static {
 		Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
