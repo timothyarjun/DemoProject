@@ -187,7 +187,7 @@ public class VendorService {
 			
 			otp_set.put(mobileNumber, otpsystem);
 			
-			Message.creator(new PhoneNumber("+918778926957"), new PhoneNumber("+13343101308"), "This is Your OTP "+otpsystem.getOtp()).create();
+			Message.creator(new PhoneNumber("+24434342236957"), new PhoneNumber("+14564401308"), "This is Your OTP "+otpsystem.getOtp()).create();
 			return "OTP sent successfully....";
 		}
 		else {
